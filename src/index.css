@@ -1,11 +1,11 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "NeueMontreal", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  /* color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #242424; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,6 +13,32 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+/* FONTS STYLES */
+
+@font-face {
+  font-family: "NeueMontreal";
+  src: url(fonts/NeueMontreal-Bold.woff) format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "NeueMontreal";
+  src: url(fonts/NeueMontreal-Light.woff) format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "NeueMontreal";
+  src: url(fonts/NeueMontreal-Medium.woff) format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "NeueMontreal";
+  src: url(fonts/NeueMontreal-Regular.woff) format("woff");
+  font-weight: 400;
+}
 
 @tailwind base;
 @tailwind components;

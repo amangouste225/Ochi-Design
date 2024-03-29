@@ -1,8 +1,11 @@
+import { Landing, NavBar } from "./components";
+
 function App() {
   return (
-    <>
-      <h1>Welcome</h1>
-    </>
+    <div className="relative h-screen w-full bg-zinc-900 text-white">
+      <NavBar />
+      <Landing />
+    </div>
   );
 }
 
