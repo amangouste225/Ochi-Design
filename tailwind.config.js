@@ -4,11 +4,16 @@ export default {
   theme: {
     screens: {
       "2xl": "1536px",
-      "3xl": "1700px",
+      "3xl": "1800px",
     },
     fontFamily: {
-      default: "NeueMontreal",
+      montreal: "NeueMontreal",
+      grotesk: "Grotesk",
     },
+    backgroundImage: {
+      landing: 'url("./src/assets/content-image01.jpg")',
+    },
+
     extend: {},
   },
   plugins: [],

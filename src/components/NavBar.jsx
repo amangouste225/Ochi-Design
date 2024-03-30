@@ -18,25 +18,24 @@ export default function NavBar() {
       name: "Insights",
       link: "#",
     },
-
     {
-      name: "Contact",
+      name: "Contact us",
       link: "#",
     },
   ];
 
   return (
-    <div className="fixed z-[999] w-full px-10 py-5  max-w-screen-3xl mx-auto flex items-center justify-between">
-      <div className="logo w-3/6">
+    <div className="fixed z-[999] w-full py-5 px-10 max-w-screen-3xl -translate-x-1/2 left-1/2 flex items-center justify-between">
+      <div className="w-2/6">
         <Logo />
       </div>
-      <div className="flex justify-end gap-5 items-start flex-1 text-xl font-light">
+      <div className="flex justify-end gap-[2vw] items-start flex-1 text-xl font-light">
         {linksMenu.map((link, index) => (
           <a
             href="#"
             key={index}
-            className={`font-default tracking-wide font-thin ${
-              index === 4 && "ml-[300px]"
+            className={`font-montreal tracking-wide font-thin ${
+              index === 4 && "ml-[315px]"
             }`}
           >
             {link.name}

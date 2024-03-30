@@ -10,9 +10,14 @@
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent
+}
 
 /* FONTS STYLES */
 
@@ -38,6 +43,12 @@
   font-family: "NeueMontreal";
   src: url(fonts/NeueMontreal-Regular.woff) format("woff");
   font-weight: 400;
+}
+
+@font-face {
+  font-family: "Grotesk";
+  src: url(fonts/FoundersGrotesk-Semibold.woff) format("woff");
+  font-weight: 600;
 }
 
 @tailwind base;
