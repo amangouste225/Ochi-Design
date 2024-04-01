@@ -13,7 +13,6 @@ export default {
     backgroundImage: {
       landing: 'url("./src/assets/content-image01.jpg")',
     },
-
     extend: {},
   },
   plugins: [],

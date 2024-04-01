@@ -1,10 +1,11 @@
-import { Landing, NavBar } from "./components";
+import { Landing, Marquee, NavBar } from "./components";
 
 function App() {
   return (
-    <div className="relative h-screen w-full bg-zinc-900 text-white">
+    <div className="relative min-h-screen w-full bg-zinc-900 text-white">
       <NavBar />
       <Landing />
+      <Marquee />
     </div>
   );
 }
