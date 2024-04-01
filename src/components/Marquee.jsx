@@ -15,21 +15,14 @@ export default function Marquee() {
   };
 
   return (
-    <div className="w-full h-[60vh] bg-[#004D43] rounded-[3rem] py-16">
-      <div className="overflow-hidden flex gap-20 border-t-[1px] border-b-[1px] border-zinc-100 pb-6 whitespace-nowrap font-grotesk uppercase">
+    <div className="w-full h-[60vh] bg-[#004D43] rounded-t-[2.5rem] py-20">
+      <div className="overflow-hidden border-t-[1px] border-b-[1px] border-zinc-200 pb-14 whitespace-nowrap font-grotesk uppercase">
         <motion.h1
           variants={marquee}
           animate="animate"
-          className="text-[20vw] leading-none h-full"
+          className="text-[28vw] leading-[17vw] h-full select-none text-zinc-200"
         >
           we are aside
-        </motion.h1>
-        <motion.h1
-          variants={marquee}
-          animate="animate"
-          className="text-[20vw] leading-none h-full"
-        >
-          we are studio
         </motion.h1>
       </div>
     </div>
