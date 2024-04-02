@@ -1,5 +1,6 @@
 import { About, Landing, Marquee, NavBar } from "./components";
 import Eyes from "./components/Eyes";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Marquee />
       <About />
       <Eyes />
+      <Projects />
     </div>
   );
 }
