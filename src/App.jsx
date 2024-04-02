@@ -1,4 +1,5 @@
 import { About, Landing, Marquee, NavBar } from "./components";
+import Eyes from "./components/Eyes";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Landing />
       <Marquee />
       <About />
+      <Eyes />
     </div>
   );
 }

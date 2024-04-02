@@ -12,6 +12,7 @@ export default {
     },
     backgroundImage: {
       landing: 'url("./src/assets/content-image01.jpg")',
+      eyes: 'url("./src/assets/Top.jpg")',
     },
     extend: {},
   },

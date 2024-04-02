@@ -2,7 +2,7 @@ import Homepage from "../assets/Homepage-Photo.jpg";
 import Button from "./Button";
 export default function About() {
   return (
-    <div className="w-full bg-[#CDEA68] rounded-[2.5rem] -mt-8 mb-10 text-black h-[95em]">
+    <div className="w-full bg-[#CDEA68] relative z-50 rounded-[2.5rem] -my-8 text-black h-[95em]">
       <div className="px-10 py-20 border-slate-700 border-b-[1px]">
         <h1 className="font-montreal whitespace-wrap text-[3.4vw] w-4/5 leading-tight font-normal">
           Ochi is a strategic partner for fast-growing tech businesses that need
