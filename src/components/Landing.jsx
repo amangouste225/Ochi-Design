@@ -4,7 +4,7 @@ import Images1 from "../assets/content-image01.jpg";
 export default function Landing() {
   return (
     <div className="max-w-screen-3xl mx-auto h-screen bg-zinc-900 pt-1">
-      <div className="textstructure mt-48 px-10">
+      <div className="mt-48 px-10">
         {["We create", "Eye Opening", "Presentations"].map((item, index) => (
           <div key={index} className="masker overflow-hidden">
             <div className="w-fit flex gap-[1vw] items-end">
@@ -24,7 +24,7 @@ export default function Landing() {
           </div>
         ))}
       </div>
-      <div className="border-t-[1px] border-zinc-800 mt-20 flex items-center px-20 pt-5 justify-between">
+      <div className="border-t-[1px] border-zinc-800 mt-20 flex items-center px-10 pt-5 justify-between">
         {[
           "For public and private companies",
           "From the first pitch to IPO",
@@ -43,7 +43,7 @@ export default function Landing() {
 
           {/* ARROWS */}
           <LuArrowUpRight
-            className="border border-[1px] border-zinc-400 rounded-full p-1.5 text-zinc-400"
+            className="border-[1px] border-slate-100 rounded-full p-1.5 text-slate-100"
             size={40}
           />
         </div>
