@@ -8,8 +8,8 @@ export default function Eyes() {
       const mouseX = e.clientX;
       const mouseY = e.clientY;
 
-      const deltaX = mouseX - this.window.innerWidth / 2;
-      const deltaY = mouseY - this.window.innerHeight / 2;
+      const deltaX = mouseX - window.innerWidth / 2;
+      const deltaY = mouseY - window.innerHeight / 2;
 
       let angle = Math.atan2(deltaY, deltaX) * (180 / Math.PI);
       setRotate(angle - 180);

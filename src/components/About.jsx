@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="w-full bg-[#CDEA68] relative z-50 rounded-[2.5rem] -my-8 text-black h-[95em]">
       <div className="px-10 py-20 border-slate-700 border-b-[1px]">
-        <h1 className="font-montreal whitespace-wrap text-[3.4vw] w-4/5 leading-tight font-normal">
+        <h1 className="font-montreal whitespace-wrap text-[3.7vw] w-5/6 leading-none font-normal">
           Ochi is a strategic partner for fast-growing tech businesses that need
           to
           <span className="mx-5">
@@ -14,7 +14,7 @@ export default function About() {
           <span className="mx-5">hire great people.</span>
         </h1>
       </div>
-      <div className="max-w-screen-3xl px-10 mx-auto justify-end flex text-[1.3rem] font-normal py-5">
+      <div className="px-10 justify-end flex text-[1.3rem] font-normal py-5">
         <div className="justify-start w-1/2">
           <h6>What you can expect :</h6>
         </div>
